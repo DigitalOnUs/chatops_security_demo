@@ -2,8 +2,8 @@
 demo security model to execute kubernetes commands on remote servers through slack
 
 Assumptions: 
-  1. A chatops environment up and running with slack, hubot, stackstorm. 
-  2. AWS ec2 instances with kubernetes environment up and running.
+  1. A chatops environment with slack, hubot and stackstorm. 
+  2. AWS ec2 instances with kubernetes environment.
 
 Steps: 
   1. install and configure vault package from : https://github.com/StackStorm/st2contrib/tree/master/packs/vault
