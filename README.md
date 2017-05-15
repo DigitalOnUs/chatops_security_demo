@@ -18,6 +18,6 @@ Steps:
         vault write secret/aws_key key=@your_key.pem
         #delete the pem file from the system now.
  
-  5. clone the packages provided in this repo (chatops_security_model) to /opt/stackstorm/packs/ .
+  5. clone the packages provided in this repo to /opt/stackstorm/packs/ .
 
   6. copy the scripts inside my_vault to the vault package and register the actions.
