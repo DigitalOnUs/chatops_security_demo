@@ -5,7 +5,7 @@ pack: 'vault'
 action_ref: 'vault.add_user_chain'
 description: 'Add a user'
 formats:
-  - display: 'Add user {key:value}'
+  - display: 'Add user <username>'
     representation:
 
       - 'add user {{new_user}} .*'
