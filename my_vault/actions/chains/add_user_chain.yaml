@@ -28,7 +28,7 @@
             name: "add_user"
             ref: "vault.add_user_to_file"
             parameters:
-                secret_list: "{{read_users_list.result}}"
+                secret_dict: "{{read_users_list.result}}"
                 new_user: "{{new_user}}"
                 secret_file: "{{secret_file}}"
             on-success: "vault_add"
